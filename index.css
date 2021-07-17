@@ -10,7 +10,7 @@ body {
 }
 header{
     height: 70px;
-    background-image: linear-gradient(to bottom, #FF6464, #8B4367);
+    background-image: linear-gradient(to bottom, #114E60, #325288);
    border-bottom-left-radius: 20px;
    border-bottom-right-radius: 20px;
 }
