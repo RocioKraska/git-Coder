@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    height: 70px;
+    background-image: linear-gradient(to bottom, #CA8A8B, #E2BCB7);
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+
+.lista{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+    font-family: 'Cinzel', serif;
+
+}
+a{
+
+text-decoration: none;
+color: #EEEEEE;
+}
+
+#logo{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 20px;
+}
+a.enlaceMenu{
+
+    transition: border .2s ;
+    padding: 5px 5px 5px 5px;
+}
+
+a.enlaceMenu:hover{
+    border: 2px solid white;
+}
+.menuLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+}
+
+
+section{
+    padding-top: 250px;
+    padding-right: 800px;
+    padding-left: 40px;
+    font-family: 'Cinzel', serif;
+    color: #EEEEEE;
+    animation-name: entrada;
+    animation-duration: 4s;
+    transition: font-size 2s;
+}
+section:hover{
+    font-size: 20px;
+}
+@keyframes entrada {
+     0%{
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+}
